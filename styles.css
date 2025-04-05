@@ -36,6 +36,8 @@ body::after {
 
 .logo {
     width: 80px;
+    position: relative;
+    z-index: 2;
 }
 
 h4 {
@@ -88,13 +90,16 @@ p {
     z-index: 2;
     display: flex;
     gap: 20px;
+    padding-top: 30px;
+    
 }
 
 .botoes {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     cursor: pointer;
+    
 }
 .botoes:active{
     opacity: 0.6;
