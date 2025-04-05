@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+@media screen and (min-width:300px) and (max-width:768px){
+    body {
+        margin: 0;
+        padding: 0;
+        background: #ccee66;
+        color: white;
+        padding: 30px 40px;
+        height: 80vh;
+        width: 90vw;
+        font-family: "Noto Sans", sans-serif;
+    
+        overflow: hidden;
+    }
+    
+    body::before {
+        content: "";
+        background: #090909f8;
+        width: 250%;
+        height: 80%;
+        position: absolute;
+        top:0;
+        left: -600px;
+        transform: rotate(-70deg);
+    }
+    
+    body::after {
+        content: 'Nike'
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #000000be;
+        font-size: 110px;
+        font-weight: bold;
+        opacity: 0.5;
+    
+    }
+    
+    .logo {
+        width: 50px;
+        position: relative;
+        z-index: 2;
+        padding-top: 10px;
+    }
+    
+    h4 {
+        font-size:20px;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    p {
+        font-size: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .botao-carrinho {
+        background-color: #a3be52;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 8px;
+        color: black;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .botao-carrinho:hover {
+        opacity: 0.7;
+    }
+    
+    .img-tenis {
+        width: 250px;
+        transform: rotate(-25deg);
+    }
+    
+    .caixa-principal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90%;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .caixa-texto {
+        max-width: 200px;
+    }
+    
+    .caixa-botoes {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        gap: 10px;
+        padding-top: 30px;
+        
+    }
+    
+    .botoes {
+        width: 30px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        
+    }
+    .botoes:active{
+        opacity: 0.6;
+    }
+    
+    .verde {
+        background: #ccee66;
+    }
+    
+    .rosa {
+        background: #ff9eb5;
+    }
+    
+    .azul {
+        background: #58cced;
+    }
+    }
+    @media screen and (min-width:769px) {
+        
