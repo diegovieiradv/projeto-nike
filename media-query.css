@@ -139,7 +139,7 @@
     body::before {
         content: "";
         background: #090909f8;
-        width: 100%;
+        width: 88%;
         height: 120%;
         position: absolute;
         top: 0;
@@ -161,21 +161,21 @@
     }
     
     .logo {
-        width: 80px;
+        width: 100px;
         position: relative;
         z-index: 2;
     }
     
     h4 {
-        font-size: 30px;
+        font-size: 40px;
     }
     
     h1 {
-        font-size: 80px;
+        font-size: 100px;
     }
     
     p {
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 40px;
     }
     
@@ -194,7 +194,7 @@
     }
     
     .img-tenis {
-        width: 800px;
+        width: 900px;
         transform: rotate(-25deg);
     }
     
