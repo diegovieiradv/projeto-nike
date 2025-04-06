@@ -122,3 +122,112 @@
         background: #58cced;
     }
 }
+@media screen and (min-width:769px){
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #ccee66;
+        color: white;
+        padding: 20px 140px;
+        height: 100vh;
+        font-family: "Noto Sans", sans-serif;
+    
+        overflow: hidden;
+    }
+    
+    body::before {
+        content: "";
+        background: #090909f8;
+        width: 100%;
+        height: 120%;
+        position: absolute;
+        top: 0;
+        left: -600px;
+        transform: rotate(-70deg);
+    }
+    
+    body::after {
+        content: 'Nike';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #000000be;
+        font-size: 250px;
+        font-weight: bold;
+        opacity: 0.5;
+    
+    }
+    
+    .logo {
+        width: 80px;
+        position: relative;
+        z-index: 2;
+    }
+    
+    h4 {
+        font-size: 30px;
+    }
+    
+    h1 {
+        font-size: 80px;
+    }
+    
+    p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    
+    .botao-carrinho {
+        background-color: #a3be52;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        color: black;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .botao-carrinho:hover {
+        opacity: 0.7;
+    }
+    
+    .img-tenis {
+        width: 800px;
+        transform: rotate(-25deg);
+    }
+    
+    .caixa-principal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 75%;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .caixa-texto {
+        max-width: 500px;
+    }
+    
+    .caixa-botoes {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        gap: 20px;
+        padding-top: 30px;
+        
+    }
+    
+    .botoes {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        cursor: pointer;
+        
+    }
+    .botoes:active{
+        opacity: 0.6;
+    }
+}
