@@ -19,8 +19,8 @@
     body::before {
         content: "";
         background: #090909f8;
-        width: 200%;
-        height: 80%;
+        width: 220%;
+        height: 90%;
         position: absolute;
         top:0;
         left: -600px;
@@ -73,8 +73,15 @@
     }
     
     .img-tenis {
-        width: 250px;
+        width: 300px;
         transform: rotate(-25deg);
+        filter: drop-shadow( 30px 45px 30px black);
+        transition: 1s;
+    }
+    
+    .troca-efeito{
+        opacity: 0;
+        transform: rotate(-25deg) translateY(-30px);
     }
     
     .caixa-principal {
