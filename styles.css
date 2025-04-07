@@ -78,6 +78,7 @@ p {
 .troca-efeito{
     opacity: 0;
     transform: rotate(-25deg) translateY(-30px);
+    overflow: hidden;
 }
 
 .caixa-principal {
