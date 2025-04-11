@@ -14,6 +14,7 @@ body {
 body::before {
     content: "";
     background: #090909f8;
+    background:;
     width: 200%;
     height: 90%;
     position: absolute;
@@ -21,6 +22,7 @@ body::before {
     left: -400px;
     transform: rotate(-70deg);
 }
+
 body::after{
     content: 'Nike';
     position: absolute;
