@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-@charset "UTF-8";
+*{
+    box-sizing: border-box;
+}
 
 @media screen and (min-width:481px) and (max-width:768px){
     body {
