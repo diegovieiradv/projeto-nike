@@ -9,7 +9,7 @@ body {
   color: white;
   padding: 50px 130px;
   height: 110vh;
-  width: 60vw;
+  width: 100vw;
   font-family: "Noto Sans", sans-serif;
   overflow: hidden;
 }
@@ -175,8 +175,8 @@ p {
 
   .img-tenis {
     width: 755px;
-    top: 240px;
-    left: 270px;
+    top: 490px;
+    left: 220px;
   }
   .caixa-principal {
     display: flex;
@@ -196,7 +196,7 @@ p {
     z-index: 2;
     display: flex;
     gap: 25px;
-    bottom: -10px;
+    bottom: -300px;
   }
 }
 
@@ -204,7 +204,7 @@ p {
 @media (max-width: 600px) {
   body {
     padding: 20px 20px;
-    width: 100vw;
+    width: 65vw;
   }
   body::before {
     content: "";
@@ -228,9 +228,9 @@ p {
     opacity: 0.5;
   }
   .img-tenis {
-    width: 380px;
-    top: 370px;
-    left: 50%;
+    width: 450px;
+    top: 450px;
+    left: 100%;
     transform: translateX(-50%) rotate(-25deg);
   }
   .caixa-principal {
@@ -266,7 +266,7 @@ p {
     z-index: 2;
     display: flex;
     gap: 10px;
-    bottom: -270px;
+    bottom: -340px;
   }
 
   .caixa-principal {
