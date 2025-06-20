@@ -71,6 +71,7 @@ p {
 }
 
 .img-tenis {
+  aspect-ratio: auto;
   width: 860px;
   transform: rotate(-25deg);
   position: absolute;
